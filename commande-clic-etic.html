@@ -1,0 +1,180 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css'>
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css'>
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/commerces_style.css">
+
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <!--[if IE]>
+  <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+  <![endif]-->
+  <section class="wrapper">
+    <div class="header_page_commerce">
+      <img src="img/bois_header.png" alt="bois header" />
+    </div>
+
+    <div class="flex_logo_menu_info_content">
+      <div class="flex_logo_menu_info">
+        <div class="logo_content">
+          <img class="logo_clic-etic" src="img/logo-guillemets.svg" alt="appelle Clic Etic" />
+        </div>
+      </div>
+      <div class="flex_logo_menu_info">
+        <div class="menu_content">
+          <img src="img/Planche-menu-bg.png" alt="bois menu">
+          <div class="menu">
+            <nav>
+              <ul>
+                <li class="sub-menu-parent" tab-index="0">
+                  <a class="bg_menu" href="#">Commerces</a>
+                  <ul class="sub-menu">
+                    <li><a href="#">alimentation</a></li>
+                    <li><a href="#">restaurants</a></li>
+                    <li><a href="#">traiteurs</a></li>
+                    <li><a href="#">producteurs</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+      <div class="flex_logo_menu_info">
+        <div class="btn_tel_info_content">
+          <div class="btn_tel_info btn_tel">
+            <div class="rollover">
+              <a href="#">
+                <img class="btn_appelle_header" src="" alt="btn tel">
+              </a>
+            </div>
+          </div>
+          <div class="btn_tel_info btn_info">
+            <div class="rollover">
+              <a href="#">
+                <img class="btn_info_header" src="" alt="btn info">
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="commerce_clic_content">
+    <div class="cic_content">
+      <img src="img/clic-trou.svg" alt="clic trou">
+    </div>
+    <!-- SLIDER -->
+    <div class="slider-container">
+      <div class="slider-images-container">
+        <img class="slide-image" src="img/Bouton.png"/>
+        <img class="slide-image" src="img/Bouton.png"/>
+        <img class="slide-image" src="img/Bouton.png"/>
+        <img class="slide-image" src="img/Bouton.png"/>
+        <img class="slide-image" src="img/Bouton.png"/>
+        <img class="slide-image" src="img/Bouton.png"/>
+        <img class="slide-image" src="img/Bouton.png"/>
+      </div>
+    </div>
+    <!-- /SLIDER -->
+  </div>
+
+  <div class="commerce_footer">
+    <img src="img/Bois_footer.png" alt="bois footer">
+  </div>
+</section>
+
+<script src="js/vendor/modernizr-3.7.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js'></script>
+<script src='https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js'></script>
+<script type="text/javascript">
+(function($) {
+  setTimeout(function() {
+    $('.slider-images-container').slick({
+      slidesToShow: 2,
+      slidesToScroll: 1,
+      dots: true,
+      responsive: [{
+        breakpoint: 480,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+          dots: false
+        }
+      }]
+    });
+  }, 1000);
+}(jQuery));
+</script>
+
+<script type="text/javascript">
+var btn_appelle_off = "img/btn_appelle.png";
+var btn_appelle_on = "img/btn_appelle_on.png";
+var btn_info_off = "img/btn_info.png";
+var btn_info_on = "img/btn_info_on.png";
+var btn_commande_off = "img/btn_commande_off.png";
+var btn_commande_on = "img/btn_commande_on.png";
+var btn_articles_off = "img/btn_articles_off.png";
+var btn_articles_on = "img/btn_articles_on.png";
+var images_appelle = document.querySelector('.btn_appelle_header');
+var images_info = document.querySelector('.btn_info_header');
+var images_commande = document.querySelector('.btn_commande');
+var images_articles = document.querySelector('.btn_articles');
+images_appelle.src = btn_appelle_off; // set default
+images_appelle.addEventListener('mouseenter', function() {
+  images_appelle.src = btn_appelle_on;
+});
+images_appelle.addEventListener('mouseout', function() {
+  images_appelle.src = btn_appelle_off;
+});
+
+images_info.src = btn_info_off; // set default
+images_info.addEventListener('mouseenter', function() {
+  images_info.src = btn_info_on;
+});
+images_info.addEventListener('mouseout', function() {
+  images_info.src = btn_info_off;
+});
+
+images_commande.src = btn_commande_off; // set default
+images_commande.addEventListener('mouseenter', function() {
+  images_commande.src = btn_commande_on;
+});
+images_commande.addEventListener('mouseout', function() {
+  images_commande.src = btn_commande_off;
+});
+
+images_articles.src = btn_articles_off; // set default
+images_articles.addEventListener('mouseenter', function() {
+  images_articles.src = btn_articles_on;
+});
+images_articles.addEventListener('mouseout', function() {
+  images_articles.src = btn_articles_off;
+});
+</script>
+
+</body>
+
+</html>
