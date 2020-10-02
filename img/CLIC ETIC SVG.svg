@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?> <!-- Created with Vectornator for iOS (http://vectornator.io/) --><!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg height="100%" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linecap:round;stroke-linejoin:round;" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="100%" xmlns:vectornator="http://vectornator.io" version="1.1" viewBox="0 0 2732 2048">
+<metadata>
+<vectornator:setting key="DisplayWhiteBackground" value="0"/>
+<vectornator:setting key="RulersVisible" value="1"/>
+<vectornator:setting key="SnapToEdges" value="0"/>
+<vectornator:setting key="Units" value="Pixels"/>
+<vectornator:setting key="DynamicGuides" value="0"/>
+<vectornator:setting key="SnapToPoints" value="0"/>
+<vectornator:setting key="SnapToGrid" value="0"/>
+<vectornator:setting key="SnapToGuides" value="1"/>
+<vectornator:setting key="GridSpacing" value="36"/>
+</metadata>
+<defs/>
+<g id="Trou" vectornator:layerName="Trou">
+<path d="M743.184+1324.28C743.184+1119.67+953.422+953.803+1212.76+953.803C1472.1+953.803+1682.34+1119.67+1682.34+1324.28C1682.34+1528.88+1472.1+1694.75+1212.76+1694.75C953.422+1694.75+743.184+1528.88+743.184+1324.28Z" opacity="1" fill="#d2ac3f"/>
+<path d="M1216.25+1175.21C1006.81+1175.21+837.018+1308.7+837.018+1473.38C837.018+1505.01+843.339+1535.47+854.946+1564.08C941.079+1644+1069.37+1694.76+1212.76+1694.76C1362.37+1694.76+1495.54+1639.48+1581.53+1553.48C1590.56+1527.98+1595.49+1501.14+1595.49+1473.38C1595.49+1308.7+1425.7+1175.21+1216.25+1175.21Z" opacity="1" fill="#c49a24"/>
+</g>
+<g id="Corps" vectornator:layerName="Corps">
+<path stroke="#252c2b" stroke-width="24.85" d="M923.397+1665.6L967.303+1056.39C967.303+1056.39+981.573+635.986+1218.67+639.279C1455.76+642.572+1485.4+1016.88+1488.69+1057.49C1491.99+1098.1+1519.43+1682.06+1519.43+1682.06" fill="#5db5aa" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+</g>
+<g id="Œil gauche" vectornator:layerName="Œil gauche">
+<path stroke="#252c2b" stroke-width="24.85" d="M917.901+938.555C924.531+809.388+991.857+708.114+1068.28+712.351C1144.7+716.589+1201.28+824.734+1194.65+953.9C1188.02+1083.07+1120.69+1184.34+1044.27+1180.1C967.849+1175.87+911.272+1067.72+917.901+938.555Z" fill="#fefffe" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+</g>
+<g id="Œil droit" vectornator:layerName="Œil droit">
+<path stroke="#252c2b" stroke-width="24.85" d="M1535.8+947.821C1529.17+818.654+1461.84+717.38+1385.42+721.617C1309+725.855+1252.42+834+1259.05+963.167C1265.68+1092.33+1333.01+1193.61+1409.43+1189.37C1485.85+1185.13+1542.43+1076.99+1535.8+947.821Z" fill="#fefffe" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+</g>
+<g id="Bec" vectornator:layerName="Bec">
+<path stroke="#252c2b" stroke-width="24.85" d="M1143.41+986.554C1143.41+986.554+1213.34+1031.8+1220.98+1039.44C1220.98+1039.44+1285.03+987.142+1298.54+981.265C1298.54+981.265+1268.55+882.017+1222.74+879.606C1178.08+877.256+1143.41+986.554+1143.41+986.554Z" fill="#d2ac3f" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+<path stroke="#252c2b" stroke-width="24.85" d="M1222.74+879.606" fill="#5db5aa" stroke-linecap="butt" opacity="1" stroke-linejoin="round"/>
+</g>
+<g id="Pupille gauche" vectornator:layerName="Pupille gauche">
+<path d="M1059.3+887.541C1044.66+887.541+1032.79+909.29+1032.79+936.118C1032.79+962.945+1044.66+984.695+1059.3+984.695C1068.33+984.695+1076.28+976.404+1081.06+963.774C1080.85+963.788+1080.64+963.827+1080.43+963.827C1071.47+963.827+1064.21+951.932+1064.21+937.249C1064.21+922.566+1071.47+910.658+1080.43+910.658C1080.92+910.658+1081.4+910.707+1081.88+910.777C1077.22+896.857+1068.86+887.541+1059.3+887.541Z" opacity="1" fill="#252c2b"/>
+</g>
+<g id="Pupille droite" vectornator:layerName="Pupille droite">
+<path d="M1387.65+883.493C1402.28+883.493+1414.16+905.243+1414.16+932.07C1414.16+958.897+1402.28+980.647+1387.65+980.647C1378.62+980.647+1370.67+972.357+1365.88+959.727C1366.1+959.74+1366.3+959.78+1366.52+959.78C1375.48+959.78+1382.74+947.885+1382.74+933.202C1382.74+918.519+1375.48+906.611+1366.52+906.611C1366.03+906.611+1365.55+906.66+1365.07+906.729C1369.73+892.81+1378.08+883.493+1387.65+883.493Z" opacity="1" fill="#252c2b"/>
+</g>
+</svg>
